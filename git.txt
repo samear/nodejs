@@ -11,3 +11,18 @@ Push an existing repository from the command line
 
 git remote add origin https://github.com/samear/Testing.git (HTTP) or git@github.com:samear/Testing.git (SSH)
 git push -u origin master
+
+--------
+clone a repository
+git clone git@github.com:samear/nodejs.git
+-------
+syncing files back and forward:
+computer A (had the original git repo)
+computer B (has the clode repo)
+
+make some changes on computer A, then run
+   git push origin master
+got to computer B, then run
+   git pull origin master
+
+
