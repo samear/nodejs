@@ -1,0 +1,7 @@
+file1 - 
+When the code runs, it does the following:
+1. Fetch the home page of shapeshed.com.
+2. Read the contents of file1.txt.
+3. Fetch the home page of bbc.co.uk.
+4. Read the contents of file2.txt.
+Looking at the example, can you tell which one will return first? A good guess would be that the two files that are being read from disk are likely to return first as they do not have to go out to the network. After that, though, it is difficult to say which of the files being read will return first as you do not know how big the files are. As for fetching the two home pages, the script goes out to the network, and the response time depends on a number of things that are difficult to predict. The Node.js process will also not exit while it has registered callbacks that have not yet fired. Callbacks are first a way to account for unpredictability, but also an efficient way to deal with concurrency (or doing more than one thing at once).
