@@ -25,4 +25,8 @@ make some changes on computer A, then run
 got to computer B, then run
    git pull origin master
 
+To sync your new changes, make some changes on computer B then push back
+
+git push origin master
+
 
