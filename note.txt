@@ -1,0 +1,24 @@
+*search for a module
+    npm search <module_name>
+    http://eirikb.github.com/nipster or http://npmjs.org
+
+*run a program
+    node <program_name>
+
+*install a module:
+    npm install <module_name>
+ 
+*install a module globally (need to login as root sudo su)
+   npm install -g express
+
+*view document for a module in a browser
+    npm docs <module_name> 
+
+*view the bugs on a project
+    npm bugs <module_name>
+
+*reading the source code of a module
+    npm edit <module_name>
+
+*curl -I www.walmart.com <look up Header>
+
