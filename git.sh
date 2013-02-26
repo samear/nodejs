@@ -1,4 +1,4 @@
-git add samtxt 
-git commit -m "second commit"
-git remote add origin git@github.com:sear/Testing.git
+git add .
+git commit -m "changed ssh to https in the file git.sh"
+git remote add origin https://github.com/samear/nodejs.git
 git push -u origin master
