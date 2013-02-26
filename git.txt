@@ -4,12 +4,12 @@ touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/samear/Testing.git (HTTP )or git@github.com:sear/Testing.git (SSH)
+git remote add origin https://github.com/samear/Testing.git (HTTPS )or git@github.com:sear/Testing.git (SSH)
 git push -u origin master
 
 Push an existing repository from the command line
 
-git remote add origin https://github.com/samear/Testing.git (HTTP) or git@github.com:samear/Testing.git (SSH)
+git remote add origin https://github.com/samear/Testing.git (HTTPS) or git@github.com:samear/Testing.git (SSH)
 git push -u origin master
 
 --------
